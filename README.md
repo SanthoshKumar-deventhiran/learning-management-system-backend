@@ -66,11 +66,10 @@ LMProject
 ├── config/                     # Configuration classes (e.g., security settings, CORS)
 ├── controller/                 # REST controllers for Users, Courses, Admin, and Videos
 ├── dto/                        # Data Transfer Objects for API requests/responses
-├── entity/                     # JPA entities (User, Course, Video, etc.)
+├── model/                     # JPA entities (User, Course, Video, etc.)
 ├── exception/                  # Custom exceptions and global error handling
 ├── repository/                 # Spring Data JPA repositories
 ├── service/                    # Business logic and services (PaymentService, VideoService, etc.)
-└── util/                       # Utility classes (authentication helpers, Cloudinary utils, etc.)
 ```
 
 ---
